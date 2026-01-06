@@ -88,3 +88,150 @@ let friendExamScore = 97;
 console.log("Did my friend score less than me?", friendExamScore < myExamScore);
 
 // End of JavaScript basic comparison Practice
+
+//! ভেরিয়েবলের তুলনা
+
+/*
+TODO:--> Operator(Description){Example}:
+? ** Let X=10, Y=5; ** 
+
+* + -->(Addition)-->{X+Y=15}
+* - -->(Subtraction)-->{X-Y=5}
+* * -->(Multiplication)-->{X*Y=50}
+* / -->(Division)-->{X/Y=2}
+* % -->(Modulus)-->{X%Y=0}
+* ++ -->(Increment)-->{X++=11}
+* -- -->(Decrement)-->{Y--=4}
+
+*/
+
+/*
+
+TODO--> JavaScript Variable Comparison Practice:
+
+*1. তোর ছোট ভাইয়ের বয়স 10 বছর, আর তোর বয়স 15 বছর। একটা প্রোগ্রাম লিখে দেখ, তোর ছোট ভাইয়ের বয়স কি তোর বয়স থেকে কম বা সমান কি না।
+
+*2. একটা পরীক্ষায় পাস মার্কস 33। ধর, তুই 45 পেয়েছিস। চেক কর, তুই পাস করেছিস কি না।
+
+*3. দুইটা ভেরিয়েবলে জাম্বুরা আর কদবেলের দাম রাখা হলো। জাম্বুরা কি কদবেলের চেয়ে সস্তা কি না, সেটার তুলনা কর।
+
+*4. তুই 10টা বই পড়েছিস, আর তোর বন্ধু পড়ছে 10টা। চেক কর, তোরা কি সমান সংখ্যক বই পড়েছিস কি না।
+
+*5. তোর কাছে 15টা বিস্কুট আর তোর বন্ধুর কাছে 20টা। চেক কর, তুই কি তোর বন্ধুর থেকে কম বিস্কুট পেয়েছিস কি না।
+
+*6. একটা ফুটবল ম্যাচে রিয়াল মাদ্রিদ 2টা গোল করছে, আর বার্সা 3টা গোল করছে। চেক কর, রিয়াল মাদ্রিদ কি বার্সার চেয়ে কম গোল করেছে কি না।
+
+*7. তোর নাম "Rahim", আর তোর বন্ধুর নাম "Karim"। চেক কর, তোর নাম কি তোর বন্ধুর নামের সমান কি না।
+
+*৪. তুই আজকে পড়াশোনা করেছিস (true), আর তোর বন্ধু পড়াশোনা করেনি (false)। চেক কর, তোরা কি একই রকম কাজ করেছিস কি না।
+
+*/
+
+// Example Solutions:
+
+// 1. Compare ages
+let myAge = 15;
+let brotherAge = 10;
+console.log("Is my brother's age less than or equal to mine?", brotherAge <= myAge);
+
+// Compare exam scores
+let passMarks = 33;
+let myExamMarks = 45;
+console.log("Did I pass the exam?", myExamMarks >= passMarks);
+
+// 2. Compare prices
+let jambaPrice = 100;
+let kodelPrice = 150;
+console.log("Is jamba more expensive than kodel?", jambaPrice > kodelPrice);
+
+// 3. Compare number of books read
+let myBooksRead = 10;
+let friendBooksRead = 10;
+console.log("Did we read the same number of books?", myBooksRead == friendBooksRead);
+
+// 4. Compare number of biscuits
+let myBiscuits = 15;
+let friendBiscuits = 20;
+console.log("Do I have fewer biscuits than my friend?", myBiscuits < friendBiscuits);
+
+// 5. Compare football goals
+let realMadridGoals = 2;
+let barcaGoals = 3;
+console.log("Did Real Madrid score fewer goals than Barca?", realMadridGoals < barcaGoals);
+
+// 6. Compare names
+let myName = "Rahim";
+let friendName = "Karim";
+console.log("Are our names the same?", myName === friendName);
+
+// 7. Compare study status
+let myStudyStatus = true;
+let friendStudyStatus = false;
+console.log("Did we do the same activity?", myStudyStatus === friendStudyStatus);
+// End of JavaScript Variable Comparison Practice
+
+/* 
+
+TODO-->JavaScript Advanced Comparison Practice:
+
+*1. তোর কাছে 50 টাকা আছে, আর বন্ধুর কাছে আছে "50" টাকা (স্ট্রিং হিসেবে)। একটা প্রোগ্রাম লিখে দেখ, 50 == "50" দিলে আর 50 === "50" দিলে আউটপুট কী আসবে।
+
+*2. তোর প্রোগ্রামিং নোটবুকে "JavaScript" লিখে রেখেছিস, আর এটা একটা স্ট্রিং টাইপ ডাটা। এখন তুই দেখতে চাস "JavaScript" "JavaScript" ==== 'JavaScript' দিলে কী আউটপুট আসবে। ব্যাখ্যা কর, কেন একই আউটপুট আসছে। == 'JavaScript' আর
+
+*3. একটা প্রোগ্রাম লিখে দেখ, 25 এবং "25"-এর মধ্যে 25 == "25" এবং 25 === "25" দিলে কী আউটপুট আসবে এবং কেন সেটা হয়, সেটা কমেন্ট করে লিখ।
+
+*4. "apple" এবং "apple" লিখে তুলনা করলে, "apple" == : "apple" এবং "apple "apple"-এর আউটপুট কী হবে। ===
+
+* 5. একটা প্রোগ্রাম লিখে দেখ, "test" এবং "TEST"-এর মধ্যে "test" == "TEST" এবং "test" === "TEST"-এর আউটপুট কী হবে।
+
+* 6. variableX-এর মান 15 আর variableY-এর মান "20" দিলে variableX != variabley এবং variableX ! == variableY-এর আউটপুট কী হবে।
+
+* 7. variableA-এর মান hello আর variableB-এর মান "Hello"। এখন variableA == variableB এবং variableA === variableB চেক করার প্রোগ্রাম
+
+*/
+
+// Example Solutions:
+
+// 1. Compare number and string
+
+let myMoney = 50;
+let friendMoney = "50";
+console.log("50 == '50':", myMoney == friendMoney);
+console.log("50 === '50':", myMoney === friendMoney);
+
+// 2. Compare identical strings
+let note = "JavaScript";
+console.log("'JavaScript' == 'JavaScript':", note == 'JavaScript');
+console.log("'JavaScript' === 'JavaScript':", note === 'JavaScript');
+
+// 3. Compare number and string again
+let numA = 25;
+let strA = "25";
+console.log("25 == '25':", numA == strA);
+console.log("25 === '25':", numA === strA);
+
+// 4. Compare identical strings again
+let strB1 = "apple";
+let strB2 = "apple";
+console.log("'apple' == 'apple':", strB1 == strB2);
+console.log("'apple' === 'apple':", strB1 === strB2);
+
+// 5. Compare different case strings
+let strC1 = "test";
+let strC2 = "TEST";
+console.log("'test' == 'TEST':", strC1 == strC2);
+console.log("'test' === 'TEST':", strC1 === strC2);
+
+// 6. Compare number and string with inequality
+let variableX = 15;
+let variableY = "20";
+console.log("variableX != variableY:", variableX != variableY);
+console.log("variableX !== variableY:", variableX !== variableY);
+
+// 7. Compare different case strings with variables
+let variableA = "hello";
+let variableB = "Hello";
+console.log("variableA == variableB:", variableA == variableB);
+console.log("variableA === variableB:", variableA === variableB);
+
+// End of JavaScript Advanced Comparison Practice
